@@ -1,12 +1,12 @@
 {
-  "name": "print-cloudservers",
+  "name": "rax-servers",
   "description": "Displays private and public IPv4 address from Cloud servers in Rackspace",
   "version": "0.0.1",
-  "author": "onel0p3z <onel0p3z@gmail.com>",
+  "author": "Juan Lopez <onel0p3z@gmail.com>",
   "bin": {
-    "cloud-servers": "./bin/cloud-servers"
+    "rax-servers": "./bin/rax-servers"
   },
-  "bugs": "https://github.com/onel0p3z/cloud-servers/issues",
+  "bugs": "https://github.com/onel0p3z/rax-servers/issues",
   "dependencies": {
     "cli-table": "^0.3.0",
     "pkgcloud": "^0.9.6"
@@ -14,16 +14,15 @@
   "engines": {
     "node": ">=0.10.32"
   },
-  "homepage": "https://github.com/onel0p3z/cloud-servers",
+  "homepage": "https://github.com/onel0p3z/rax-servers",
   "keywords": [
     "rackspace, pkgcloud, cli-tools, cli"
   ],
   "license": "MIT",
   "main": "index.js",
-  "private": "true",
   "repository": {
     "type": "git",
-    "url": "git@github.com:onel0p3z/cloud-servers.git"
+    "url": "git@github.com:onel0p3z/rax-servers.git"
   },
   "scripts": {
     "start": "node index.js"

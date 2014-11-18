@@ -4,4 +4,4 @@
  * `CF_KEY`
  * `CF_REGION`
 
-2. Type `cloud-servers` in your terminal and that's it.
+2. Type `rax-servers` in your terminal and that's it.
