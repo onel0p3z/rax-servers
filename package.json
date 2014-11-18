@@ -1,0 +1,31 @@
+{
+  "name": "print-cloudservers",
+  "description": "Displays private and public IPv4 address from Cloud servers in Rackspace",
+  "version": "0.0.1",
+  "author": "onel0p3z <onel0p3z@gmail.com>",
+  "bin": {
+    "cloud-servers": "./bin/cloud-servers"
+  },
+  "bugs": "https://github.com/onel0p3z/cloud-servers/issues",
+  "dependencies": {
+    "cli-table": "^0.3.0",
+    "pkgcloud": "^0.9.6"
+  },
+  "engines": {
+    "node": ">=0.10.32"
+  },
+  "homepage": "https://github.com/onel0p3z/cloud-servers",
+  "keywords": [
+    "rackspace, pkgcloud, cli-tools, cli"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "private": "true",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:onel0p3z/cloud-servers.git"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
