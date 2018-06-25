@@ -9,7 +9,8 @@
   "bugs": "https://github.com/onel0p3z/rax-servers/issues",
   "dependencies": {
     "cli-table": "^0.3.0",
-    "pkgcloud": "^0.9.6"
+    "pkgcloud": "^1.5.0",
+    "snyk": "^1.85.0"
   },
   "engines": {
     "node": ">=0.10.32"
@@ -25,6 +26,9 @@
     "url": "git@github.com:onel0p3z/rax-servers.git"
   },
   "scripts": {
-    "start": "node index.js"
-  }
+    "start": "node index.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
