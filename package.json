@@ -9,7 +9,7 @@
   "bugs": "https://github.com/onel0p3z/rax-servers/issues",
   "dependencies": {
     "cli-table": "^0.3.0",
-    "pkgcloud": "^0.9.6"
+    "pkgcloud": "^1.0.0"
   },
   "engines": {
     "node": ">=0.10.32"
